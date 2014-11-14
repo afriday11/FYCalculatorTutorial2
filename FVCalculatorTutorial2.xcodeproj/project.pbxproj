@@ -13,6 +13,8 @@
 		159253CC1A144FA10078C6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159253CA1A144FA10078C6AB /* Main.storyboard */; };
 		159253CE1A144FA10078C6AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159253CD1A144FA10078C6AB /* Images.xcassets */; };
 		159253DA1A144FA10078C6AB /* FVCalculatorTutorial2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159253D91A144FA10078C6AB /* FVCalculatorTutorial2Tests.m */; };
+		159253E51A1452B50078C6AB /* FYNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 159253E41A1452B50078C6AB /* FYNumber.m */; };
+		159253E81A1452CC0078C6AB /* FYCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 159253E71A1452CC0078C6AB /* FYCalculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		159253D31A144FA10078C6AB /* FVCalculatorTutorial2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FVCalculatorTutorial2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		159253D81A144FA10078C6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		159253D91A144FA10078C6AB /* FVCalculatorTutorial2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FVCalculatorTutorial2Tests.m; sourceTree = "<group>"; };
+		159253E31A1452B50078C6AB /* FYNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNumber.h; sourceTree = "<group>"; };
+		159253E41A1452B50078C6AB /* FYNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNumber.m; sourceTree = "<group>"; };
+		159253E61A1452CC0078C6AB /* FYCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYCalculate.h; sourceTree = "<group>"; };
+		159253E71A1452CC0078C6AB /* FYCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYCalculate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +85,13 @@
 		159253BF1A144FA00078C6AB /* FVCalculatorTutorial2 */ = {
 			isa = PBXGroup;
 			children = (
-				159253C41A144FA10078C6AB /* AppDelegate.h */,
-				159253C51A144FA10078C6AB /* AppDelegate.m */,
 				159253C71A144FA10078C6AB /* ViewController.h */,
 				159253C81A144FA10078C6AB /* ViewController.m */,
 				159253CA1A144FA10078C6AB /* Main.storyboard */,
+				159253E31A1452B50078C6AB /* FYNumber.h */,
+				159253E41A1452B50078C6AB /* FYNumber.m */,
+				159253E61A1452CC0078C6AB /* FYCalculate.h */,
+				159253E71A1452CC0078C6AB /* FYCalculate.m */,
 				159253CD1A144FA10078C6AB /* Images.xcassets */,
 				159253C01A144FA00078C6AB /* Supporting Files */,
 			);
@@ -93,6 +101,8 @@
 		159253C01A144FA00078C6AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				159253C41A144FA10078C6AB /* AppDelegate.h */,
+				159253C51A144FA10078C6AB /* AppDelegate.m */,
 				159253C11A144FA10078C6AB /* Info.plist */,
 				159253C21A144FA10078C6AB /* main.m */,
 			);
@@ -216,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				159253C91A144FA10078C6AB /* ViewController.m in Sources */,
+				159253E51A1452B50078C6AB /* FYNumber.m in Sources */,
 				159253C61A144FA10078C6AB /* AppDelegate.m in Sources */,
+				159253E81A1452CC0078C6AB /* FYCalculate.m in Sources */,
 				159253C31A144FA10078C6AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
