@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154B6F911A199A4F0012E06D /* FYNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 154B6F901A199A4F0012E06D /* FYNumber.m */; };
 		159253C31A144FA10078C6AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 159253C21A144FA10078C6AB /* main.m */; };
 		159253C61A144FA10078C6AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 159253C51A144FA10078C6AB /* AppDelegate.m */; };
 		159253C91A144FA10078C6AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159253C81A144FA10078C6AB /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154B6F8F1A199A4F0012E06D /* FYNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNumber.h; sourceTree = "<group>"; };
+		154B6F901A199A4F0012E06D /* FYNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNumber.m; sourceTree = "<group>"; };
 		159253BD1A144FA00078C6AB /* FVCalculatorTutorial2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FVCalculatorTutorial2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		159253C11A144FA10078C6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		159253C21A144FA10078C6AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				159253E61A1452CC0078C6AB /* FYCalculate.h */,
 				159253E71A1452CC0078C6AB /* FYCalculate.m */,
 				159253CD1A144FA10078C6AB /* Images.xcassets */,
+				154B6F8F1A199A4F0012E06D /* FYNumber.h */,
+				154B6F901A199A4F0012E06D /* FYNumber.m */,
 				159253C01A144FA00078C6AB /* Supporting Files */,
 			);
 			path = FVCalculatorTutorial2;
@@ -224,6 +229,7 @@
 				159253C61A144FA10078C6AB /* AppDelegate.m in Sources */,
 				159253E81A1452CC0078C6AB /* FYCalculate.m in Sources */,
 				159253C31A144FA10078C6AB /* main.m in Sources */,
+				154B6F911A199A4F0012E06D /* FYNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
