@@ -7,18 +7,21 @@
 //
 
 #import "FYCalculate.h"
-#import "FYNumber.h"
+#import "ViewController.m"
 
 @implementation FYCalculate
 
-
+- (void)appendNumber: (int) number
+{
+    [self.displayNumber appendString:[number ];
+}
 
 
 //All of the calculation functions will be called here. Once addition is working I will create  -, /, and * methods.
-- (int)calculateAddition
+- (float)calculate
 {
-    int sum = displayNumber + hiddenNumber;
-    return sum;
+    int answer = self.displayNumber //self.operation self.hiddenNumber;
+    return answer
 };
 
 @end

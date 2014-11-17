@@ -12,6 +12,11 @@
 
 @interface FYCalculate : NSObject
 
-- (int)calculateAddition;
+@property (strong, nonatomic) NSMutableString *displayNumber;
+@property (strong, nonatomic) NSString *hiddenNumber;
+@property (strong, nonatomic) NSString *operation;
+
+- (void)appendNumber;
+- (float)calculate;
 
 @end

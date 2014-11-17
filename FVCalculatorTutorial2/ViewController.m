@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "FYNumber.h"
 #import "FYCalculate.h"
 //should ViewController.h import the header files?????
 
@@ -20,9 +19,13 @@
 
 @implementation ViewController
             
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+    // Is this the correct place to initialize calc?
+    FYCalculate *calc = [[FYCalculate alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,8 +43,9 @@
 
 - (IBAction)oneButtonPush:(id)sender
 {
-    //add the integer one to the end of the display number
-    //not sure how to do this
+    //send 1 to the appendNumber method in FYCalculate
+    //not sure how to write appendNumber
+    //[calc append(1)]
 }
 
 - (IBAction)twoButtonPush:(id)sender
@@ -60,7 +64,7 @@
 
 - (IBAction)equalButtonPush:(id)sender
 {
-    //input displayNumber and hiddenNumber into the chosen calcuation method
+    //run calculate method with hiddenNumber, displayNumber and operation as an input
 }
 
 
