@@ -16,7 +16,7 @@
 @property (strong, nonatomic) NSString *hiddenNumber;
 @property (strong, nonatomic) NSString *operation;
 
-- (void)appendNumber;
+- (void)appendNumber: (int)number;
 - (float)calculate;
 
 @end

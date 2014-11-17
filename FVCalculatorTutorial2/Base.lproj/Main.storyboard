@@ -20,9 +20,6 @@
                                 <rect key="frame" x="20" y="33" width="440" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="displayTextField:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="Bfs-ca-grM"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33f-4A-27r">
                                 <rect key="frame" x="141" y="319" width="30" height="30"/>
@@ -30,7 +27,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="oneButtonPush:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NOS-hV-hVS"/>
+                                    <action selector="numeralButtonPush:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="58H-9w-Z4s"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slk-qf-X1y">
@@ -57,7 +54,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="twoButtonPush:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sZt-bZ-Asm"/>
+                                    <action selector="numeralButtonPush:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="a33-8T-MfN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -71,6 +68,9 @@
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <connections>
+                        <outlet property="displayTextField" destination="mLT-Tr-YsK" id="oSm-uh-6lY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FYCalculate.h"
 
 @interface ViewController : UIViewController
 
-- (IBAction)oneButtonPush:(id)sender;
+//  Display displayNumber in this UITextField. NEED to do this.
+@property (strong, nonatomic) IBOutlet UITextField *displayTextField;
+
+@property (strong, nonatomic) FYCalculate * calc;
+
+//- (IBAction)oneButtonPush:(id)sender;
+
+- (IBAction)numeralButtonPush:(id)sender;
 
 @end
 
